@@ -921,7 +921,7 @@ void World::ImGuiFrameSetup(std::shared_ptr<GraphicsProgram> graphicsProgram) {/
     }
     /* window definitions */
     {
-        ImGui::Begin("Editor");
+        ImGui::Begin("World Editor");
         if(guiPickMode == false) {
             if (ImGui::Button("Switch to GUI selection mode")) {
                 this->guiPickMode = true;
